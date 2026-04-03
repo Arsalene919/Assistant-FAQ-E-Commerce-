@@ -1,4 +1,4 @@
-# Réflexion technique — ShopVite FAQ Assistant
+# Réflexion technique - ShopVite FAQ Assistant
 
 ## Justification du prompt engineering
 
@@ -8,7 +8,7 @@ Le system prompt a été conçu avec trois techniques complémentaires :
 
 2. **Garde-fous explicites** : les règles numérotées ("réponds UNIQUEMENT à partir du contexte", "cite tes sources") agissent comme des contraintes dures. La phrase de refus hors-scope est définie mot pour mot, ce qui élimine la variabilité dans le traitement des questions non couvertes.
 
-3. **Chain-of-thought implicite** : la section "Processus de raisonnement" guide le modèle à suivre un cheminement logique (identifier le sujet → localiser les passages → formuler → citer) avant de répondre. Cela réduit les hallucinations en forçant une vérification mentale du contexte avant toute génération.
+3. **Chain-of-thought implicite** : la section "Processus de raisonnement" guide le modèle à suivre un cheminement logique (identifier le sujet --> localiser les passages --> formuler --> citer) avant de répondre. Cela réduit les hallucinations en forçant une vérification mentale du contexte avant toute génération.
 
 Le choix d'un ton professionnel et concis en français reflète le contexte canadien francophone du client ShopVite.
 
