@@ -1,0 +1,76 @@
+{
+  "catalogue": "ShopVite — Guide des produits phares 2025",
+  "derniere_mise_a_jour": "2025-03-15",
+  "produits": [
+    {
+      "id": "SV-SP-001",
+      "nom": "TechPhone Pro 15",
+      "categorie": "Smartphone",
+      "prix": 1299.99,
+      "devise": "CAD",
+      "description": "Smartphone haut de gamme avec écran AMOLED 6.7 pouces, processeur Snapdragon 8 Gen 3, 256 Go de stockage, 12 Go de RAM, triple caméra 200 MP + 50 MP + 12 MP, batterie 5000 mAh avec charge rapide 65W.",
+      "garantie": "2 ans constructeur",
+      "disponibilite": "En stock",
+      "note_clients": 4.7,
+      "nombre_avis": 1243,
+      "points_forts": ["Écran lumineux et fluide (120 Hz)", "Excellente autonomie", "Charge rapide 65W", "Résistant à l'eau IP68"],
+      "compatibilite": "5G, Wi-Fi 7, Bluetooth 5.4, NFC"
+    },
+    {
+      "id": "SV-PC-002",
+      "nom": "UltraBook Air 14",
+      "categorie": "Ordinateur portable",
+      "prix": 1749.99,
+      "devise": "CAD",
+      "description": "Ordinateur portable ultrafin de 14 pouces, processeur Intel Core Ultra 7, 16 Go de RAM LPDDR5, SSD 512 Go, écran IPS 2.8K, autonomie de 15 heures, poids de 1,2 kg.",
+      "garantie": "2 ans constructeur + 1 an ShopVite",
+      "disponibilite": "En stock",
+      "note_clients": 4.5,
+      "nombre_avis": 876,
+      "points_forts": ["Ultra léger (1,2 kg)", "Écran 2.8K haute fidélité", "15 heures d'autonomie", "Clavier rétroéclairé silencieux"],
+      "compatibilite": "Wi-Fi 7, Bluetooth 5.3, USB-C Thunderbolt 4, HDMI 2.1"
+    },
+    {
+      "id": "SV-EC-003",
+      "nom": "SoundMax Pro ANC",
+      "categorie": "Casque audio",
+      "prix": 349.99,
+      "devise": "CAD",
+      "description": "Casque audio sans fil avec réduction de bruit active (ANC) avancée, codec LDAC et aptX HD, autonomie de 40 heures, mode transparence, microphones intégrés pour appels cristallins.",
+      "garantie": "1 an constructeur",
+      "disponibilite": "En stock",
+      "note_clients": 4.8,
+      "nombre_avis": 2105,
+      "points_forts": ["ANC de classe mondiale", "40 heures d'autonomie", "Confort supérieur (coussinets mémoire de forme)", "Son Hi-Res Audio"],
+      "compatibilite": "Bluetooth 5.3, NFC, câble jack 3.5 mm inclus"
+    },
+    {
+      "id": "SV-TB-004",
+      "nom": "TabVite 12 Pro",
+      "categorie": "Tablette",
+      "prix": 899.99,
+      "devise": "CAD",
+      "description": "Tablette 12.4 pouces avec écran Super AMOLED 120 Hz, processeur MediaTek Dimensity 9200, 8 Go de RAM, 256 Go de stockage, stylet inclus, 4 haut-parleurs stéréo.",
+      "garantie": "2 ans constructeur",
+      "disponibilite": "Rupture de stock — réapprovisionnement prévu le 15 avril 2025",
+      "note_clients": 4.6,
+      "nombre_avis": 543,
+      "points_forts": ["Stylet inclus avec détection de pression", "Écran Super AMOLED 120 Hz", "Idéale pour le dessin et la prise de notes", "Mode DeX pour productivité bureau"],
+      "compatibilite": "Wi-Fi 6E, Bluetooth 5.3, USB-C 3.2"
+    },
+    {
+      "id": "SV-MC-005",
+      "nom": "SmartWatch Elite",
+      "categorie": "Montre connectée",
+      "prix": 449.99,
+      "devise": "CAD",
+      "description": "Montre connectée avec écran AMOLED 1.5 pouces, suivi santé avancé (ECG, SpO2, température corporelle), GPS intégré, autonomie de 7 jours, résistance à l'eau 5 ATM, plus de 100 modes sportifs.",
+      "garantie": "1 an constructeur",
+      "disponibilite": "En stock",
+      "note_clients": 4.4,
+      "nombre_avis": 389,
+      "points_forts": ["Suivi santé complet (ECG, SpO2)", "7 jours d'autonomie", "GPS intégré multi-bandes", "Design premium titane"],
+      "compatibilite": "Bluetooth 5.2, Wi-Fi, NFC (paiement sans contact), compatible iOS et Android"
+    }
+  ]
+}
