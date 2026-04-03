@@ -1,4 +1,4 @@
-# ShopVite FAQ Assistant — Pipeline RAG
+# ShopVite FAQ Assistant - Pipeline RAG
 
 Assistant FAQ intelligent pour **ShopVite**, une boutique en ligne de produits électroniques. Propulsé par un pipeline **RAG (Retrieval-Augmented Generation)** qui répond aux questions des clients en se basant exclusivement sur la documentation officielle.
 
@@ -29,7 +29,7 @@ Assistant FAQ intelligent pour **ShopVite**, une boutique en ligne de produits �
 ### Option A — Docker (recommandé)
 
 ```bash
-cp .env.example .env          # Configurer OPENAI_API_KEY
+cp .env.example .env          
 docker build -t shopvite-faq .
 docker run -p 8000:8000 --env-file .env shopvite-faq
 ```
@@ -37,7 +37,7 @@ docker run -p 8000:8000 --env-file .env shopvite-faq
 ### Option B — Python local
 
 ```bash
-cp .env.example .env          # Configurer OPENAI_API_KEY
+cp .env.example .env          
 pip install -r requirements.txt
 python -m src.main
 ```
@@ -63,7 +63,7 @@ curl -X POST http://localhost:8000/ask \
 }
 ```
 
-### GET /health — Statut de l'API
+### GET /health - Statut de l'API
 
 ```bash
 curl http://localhost:8000/health
