@@ -5,7 +5,7 @@ Assistant FAQ intelligent pour **ShopVite**, une boutique en ligne de produits Ã
 ## Architecture du pipeline
 
 <p align="center">
-  <img src="images/architecture.png" width="700"/>
+  <img src="images/Architecture.png" width="700"/>
 </p>
 
 ## Stack technique â€” Justification des choix
