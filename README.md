@@ -1,4 +1,4 @@
-# ShopVite FAQ Assistant - Pipeline RAG
+# ShopVite FAQ Assistant: Pipeline RAG
 
 Assistant FAQ intelligent pour **ShopVite**, une boutique en ligne de produits électroniques. Propulsé par un pipeline **RAG (Retrieval-Augmented Generation)** qui répond aux questions des clients en se basant exclusivement sur la documentation officielle.
 
@@ -8,7 +8,7 @@ Assistant FAQ intelligent pour **ShopVite**, une boutique en ligne de produits �
   <img src="images/Architecture.png" width="700"/>
 </p>
 
-## Stack technique — Justification des choix
+## Stack technique: Justification des choix
 
 | Composant | Technologie | Justification |
 |-----------|-------------|---------------|
@@ -26,7 +26,7 @@ Assistant FAQ intelligent pour **ShopVite**, une boutique en ligne de produits �
 - Python 3.11+ ou Docker
 - Une clé API OpenAI
 
-### Option A — Docker (recommandé)
+### Option A: Docker (recommandé)
 
 ```bash
 cp .env.example .env          
@@ -34,7 +34,7 @@ docker build -t shopvite-faq .
 docker run -p 8000:8000 --env-file .env shopvite-faq
 ```
 
-### Option B — Python local
+### Option B: Python local
 
 ```bash
 cp .env.example .env          
@@ -46,7 +46,7 @@ L'API est accessible sur `http://localhost:8000`. Documentation Swagger sur `htt
 
 ## Utilisation de l'API
 
-### POST /ask — Poser une question
+### POST /ask: Poser une question
 
 ```bash
 curl -X POST http://localhost:8000/ask \
@@ -63,7 +63,7 @@ curl -X POST http://localhost:8000/ask \
 }
 ```
 
-### GET /health - Statut de l'API
+### GET /health: Statut de l'API
 
 ```bash
 curl http://localhost:8000/health
